@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="How_Many_Fingers" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Is it prime?? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="luE-oj-kXl">
+                                <rect key="frame" x="112" y="20" width="96" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jcf-tj-AxM">
+                                <rect key="frame" x="136" y="87" width="48" height="30"/>
+                                <state key="normal" title="Guess!"/>
+                                <connections>
+                                    <action selector="submitGuess:" destination="BYZ-38-t0r" eventType="touchUpInside" id="srq-Jg-lXf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSh-TG-lLX">
+                                <rect key="frame" x="160" y="125" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gIO-pA-Dbi">
+                                <rect key="frame" x="104" y="49" width="112" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="luE-oj-kXl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FSe-Bo-nrZ"/>
+                            <constraint firstItem="luE-oj-kXl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="KOl-lW-RPU"/>
+                            <constraint firstItem="gIO-pA-Dbi" firstAttribute="centerX" secondItem="luE-oj-kXl" secondAttribute="centerX" id="V3s-Cn-acw"/>
+                            <constraint firstItem="gIO-pA-Dbi" firstAttribute="width" secondItem="luE-oj-kXl" secondAttribute="width" id="WUn-ki-IHi"/>
+                            <constraint firstItem="Jcf-tj-AxM" firstAttribute="top" secondItem="gIO-pA-Dbi" secondAttribute="bottom" constant="8" id="coj-QF-jbI"/>
+                            <constraint firstItem="Jcf-tj-AxM" firstAttribute="centerX" secondItem="gIO-pA-Dbi" secondAttribute="centerX" id="e1M-NB-YKq"/>
+                            <constraint firstItem="hSh-TG-lLX" firstAttribute="centerX" secondItem="Jcf-tj-AxM" secondAttribute="centerX" id="hFI-Sv-ULj"/>
+                            <constraint firstItem="gIO-pA-Dbi" firstAttribute="top" secondItem="luE-oj-kXl" secondAttribute="bottom" constant="8" id="utl-Bw-4xa"/>
+                            <constraint firstItem="hSh-TG-lLX" firstAttribute="top" secondItem="Jcf-tj-AxM" secondAttribute="bottom" constant="8" id="v5V-TJ-ZPR"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="resultText" destination="hSh-TG-lLX" id="VcI-VC-eEh"/>
+                        <outlet property="userGuess" destination="gIO-pA-Dbi" id="jWK-mc-k3B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380" y="337"/>
+        </scene>
+    </scenes>
+</document>
