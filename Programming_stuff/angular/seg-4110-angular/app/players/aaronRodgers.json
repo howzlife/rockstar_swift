@@ -1,0 +1,22 @@
+{
+    "name" : "Aaron Rodgers",
+    "team": "Green Bay Packers",
+    "position" : "QB",
+    "snippet" : "Aaron Charles Rodgers (born December 2, 1983) is an American football quarterback for the Green Bay Packers of the National Football League (NFL). Rodgers played college football for California, where he set several career passing records, including lowest single-season and career interception rates.[1] He was selected in the first round (24th overall) of the 2005 NFL Draft by the Packers.",
+    "images": [
+        "img/players/aaron_rodgers_0.jpg", 
+        "img/players/aaron_rodgers_1.jpg", 
+        "img/players/aaron_rodgers_2.jpg", 
+        "img/players/aaron_rodgers_3.jpg", 
+        "img/players/aaron_rodgers_4.jpg"
+    ], 
+    "stats": {
+    	"Games" : "9", 
+    	"Attempts": "313", 
+    	"Completions": "198", 
+    	"Pct" : "63.3", 
+    	"Yards": "2270", 
+    	"TD": "21",
+        "Int": "3"
+    }
+}

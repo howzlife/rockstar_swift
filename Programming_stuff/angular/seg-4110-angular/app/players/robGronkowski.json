@@ -1,0 +1,21 @@
+{
+    "name" : "Rob Gronkowski",
+    "position" : "TE", 
+    "team": "New England Patriots",
+    "snippet": "Robert Gronkowski, nicknamed Gronk, is an American football tight end for the New England Patriots of the National Football League",
+    "images": [
+        "img/players/rob_gronkowski_0.jpg", 
+        "img/players/rob_gronkowski_1.jpg", 
+        "img/players/rob_gronkowski_2.jpg", 
+        "img/players/rob_gronkowski_3.jpg", 
+        "img/players/rob_gronkowski_4.jpg"
+    ], 
+    "stats": {
+        "Games" : "8", 
+        "Rec": "44", 
+        "Yards": "693", 
+        "Long": "52",
+        "Fumbles": "0",
+        "TD": "7"
+    }
+}

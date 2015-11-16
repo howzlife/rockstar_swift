@@ -1,0 +1,22 @@
+{
+    "name" : "Tom Brady",
+    "team": "New England Patriots",
+    "position" : "QB",
+    "snippet": "Born on August 3, 1977, in San Mateo, California, Tom Brady was drafted by the NFL's New England Patriots in 2000. Married to supermodel Gisele Bündchen, the star quarterback has won two MVP Awards and four Super Bowl championships.",
+    "images": [
+        "img/players/tom_brady_0.jpg", 
+        "img/players/tom_brady_1.jpg", 
+        "img/players/tom_brady_2.jpg", 
+        "img/players/tom_brady_3.jpg", 
+        "img/players/tom_brady_4.jpg"
+    ], 
+    "stats": {
+    	"Games" : "8", 
+    	"Attempts": "328", 
+    	"Completions": "255", 
+    	"Pct" : "68.6", 
+    	"Att/G": "41.0", 
+    	"Yards": "2709", 
+    	"TD": "22"
+    }
+}

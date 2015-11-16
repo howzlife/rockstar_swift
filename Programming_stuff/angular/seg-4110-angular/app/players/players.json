@@ -1,0 +1,74 @@
+[
+    {
+        "age": 38, 
+        "id": "tomBrady", 
+        "imageUrl": "img/players/tom_brady_0.jpg", 
+        "name": "Tom Brady", 
+        "team": "New England Patriots",
+        "snippet": "Born on August 3, 1977, in San Mateo, California, Tom Brady was drafted by the NFL's New England Patriots in 2000. Married to supermodel Gisele Bündchen, the star quarterback has won two MVP Awards and four Super Bowl championships."
+    }, 
+    {
+        "age": 29, 
+        "id": "julianEdelman", 
+        "imageUrl":"img/players/julian_edelman_0.jpg", 
+        "name": "Julian Edelman", 
+        "team": "New England Patriots",
+        "snippet": "Julian Edelman (born May 22, 1986) is an American football wide receiver and punt returner for the New England Patriots of the National Football League (NFL). He played college football at Kent State and the College of San Mateo as a quarterback, and was drafted by the Patriots in the seventh round of the 2009 NFL Draft."
+    }, 
+    {
+        "age": 26, 
+        "id": "robGronkowski", 
+        "imageUrl":"img/players/rob_gronkowski_0.jpg",
+        "name": "Rob Gronkowski", 
+        "team": "New England Patriots",
+        "snippet": "Robert Gronkowski (born May 14, 1989), nicknamed \"Gronk\", is an American football tight end for the New England Patriots of the National Football League (NFL). Raised in Williamsville, New York, he played college football at Arizona, winning several awards such as being named The Sporting News freshman All-American, Rivals.com freshman All-American, The Sporting News freshman Pac-10, and being placed on the watchlist for the Lombardi Award."
+    }, 
+    {
+        "age": 31, 
+        "id": "aaronRodgers", 
+        "imageUrl": "img/players/aaron_rodgers_0.jpg", 
+        "name": "Aaron Rodgers", 
+        "team": "Green Bay Packers",
+        "snippet" : "Aaron Charles Rodgers (born December 2, 1983) is an American football quarterback for the Green Bay Packers of the National Football League (NFL). Rodgers played college football for California, where he set several career passing records, including lowest single-season and career interception rates.[1] He was selected in the first round (24th overall) of the 2005 NFL Draft by the Packers."
+    }, 
+    {
+        "age": 39, 
+        "id": "peytonManning", 
+        "imageUrl": "img/players/peyton_manning_0.jpg", 
+        "name": "Peyton Manning", 
+        "team": "Denver Broncos",
+        "snippet": "Peyton Williams Manning (born March 24, 1976) is an American football quarterback for the Denver Broncos of the National Football League (NFL). A five-time league MVP, he played for the Indianapolis Colts for 14 seasons between 1998 and 2011. He is a son of former NFL quarterback Archie Manning and an elder brother of New York Giants quarterback Eli Manning."
+    }, 
+    {
+        "age": 26, 
+        "id": "julioJones", 
+        "imageUrl": "img/players/julio_jones_0.jpg", 
+        "name": "Julio Jones", 
+        "team": "Atlanta Falcons",
+        "snippet": "Quintorris Lopez \"Julio\" Jones (born February 8, 1989) is an American football wide receiver for the Atlanta Falcons of the National Football League (NFL). He played college football at Alabama, and was drafted by the Falcons sixth overall in the 2011 NFL Draft."
+    }, 
+    {
+        "age": 30, 
+        "id": "mattRyan", 
+        "imageUrl": "img/players/matt_ryan_0.jpg", 
+        "name": "Matt Ryan", 
+        "team": "Atlanta Falcons",
+        "snippet": "Matthew Thomas \"Matt\" Ryan (born May 17, 1985) is an American football quarterback for the Atlanta Falcons of the National Football League (NFL). After playing college football for Boston College, Ryan was drafted by the Falcons with the third overall pick in the first round of the 2008 NFL Draft."
+    }, 
+    {
+        "age": 29, 
+        "id": "marshawnLynch", 
+        "imageUrl": "img/players/marshawn_lynch_0.jpg", 
+        "name": "Marshawn Lynch", 
+        "team": "Seattle Seahawks",
+        "snippet": "Marshawn Lynch (born April 22, 1986) is an American football running back for the Seattle Seahawks of the National Football League (NFL). He was drafted by the Buffalo Bills in the first round of the 2007 NFL Draft. He played college football at California, where he became the school's second all-time career rusher.[1]"
+    }, 
+    {
+        "age": 30, 
+        "id": "adrianPeterson", 
+        "imageUrl": "img/players/adrian_peterson_0.jpg", 
+        "name": "Adrian Peterson", 
+        "team": "Minnesota Vikings", 
+        "snippet": "Adrian Lewis Peterson (born March 21, 1985) is an American football running back for the Minnesota Vikings of the National Football League (NFL).[5] He was drafted by the Vikings seventh overall in the 2007 NFL Draft. He played college football at Oklahoma. Peterson set the NCAA freshman rushing record with 1,925 yards as a true freshman during the 2004 season. As a unanimous first-team All-American, he became the first freshman to finish as the runner-up in the Heisman Trophy balloting."
+    }
+]

@@ -1,0 +1,117 @@
+/* app css stylesheet */
+
+body {
+  padding: 50px;
+    background: url("/app/img/nfl_logo.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 750px;
+}
+
+.player-detail {
+  opacity: 0.9;
+  background-color: white;
+}
+
+.player-images {
+  background-color: white;
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+
+.player-snippet {
+  background-color: white;
+  position: relative;
+  float: left;
+  padding: 10px;
+}
+
+.players {
+  list-style: none;
+  opacity: 0.9;
+}
+
+.thumb {
+  border: 5px solid black;
+  float: left;
+  margin: -0.5em 1em 1.5em 0;
+  padding-bottom: 1em;
+  height: 100px;
+  width: 100px;
+}
+
+.players li {
+  clear: both;
+  height: 150px;
+  padding-top: 15px;
+}
+
+/** Detail View **/
+img.player {
+  float: left;
+  margin-right: 3em;
+  margin-bottom: 2em;
+  background-color: white;
+  padding: 2em;
+  height: 400px;
+  width: 400px;
+  display: none;
+}
+
+img.player:first-child {
+  display: block;
+}
+
+ul.player-thumbs {
+  margin: 0;
+  list-style: none;
+}
+
+ul.player-thumbs li {
+  border: 5px solid black;
+  display: inline-block;
+  margin: 1em;
+  background-color: white;
+}
+
+ul.player-thumbs img {
+  height: 100px;
+  width: 100px;
+  padding: 1em;
+}
+
+ul.player-thumbs img:hover {
+  cursor: pointer;
+}
+
+
+ul.specs {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.specs > li{
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
+
+ul.specs > li > span{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+ul.specs dt {
+  font-weight: bold;
+}
+
+h1 {
+  border-bottom: 1px solid gray;
+}

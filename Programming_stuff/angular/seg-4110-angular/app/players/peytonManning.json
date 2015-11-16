@@ -1,0 +1,22 @@
+{
+    "name" : "Peyton Manning",
+    "team": "Denver Broncos",
+    "position" : "QB",
+    "snippet": "Peyton Williams Manning (born March 24, 1976) is an American football quarterback for the Denver Broncos of the National Football League (NFL). A five-time league MVP, he played for the Indianapolis Colts for 14 seasons between 1998 and 2011. He is a son of former NFL quarterback Archie Manning and an elder brother of New York Giants quarterback Eli Manning.",
+    "images": [
+        "img/players/peyton_manning_0.jpg", 
+        "img/players/peyton_manning_1.jpg", 
+        "img/players/peyton_manning_2.jpg", 
+        "img/players/peyton_manning_3.jpg", 
+        "img/players/peyton_manning_4.jpg"
+    ], 
+    "stats": {
+    	"Games" : "8", 
+    	"Attempts": "302", 
+    	"Completions": "188", 
+    	"Pct" : "62.3", 
+    	"Att/G": "39.0", 
+    	"Yards": "2,149", 
+    	"TD": "9"
+    }
+}

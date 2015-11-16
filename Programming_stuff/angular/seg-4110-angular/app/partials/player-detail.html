@@ -1,0 +1,31 @@
+<a href="#/players"><button type="button blue">Back to Player List</button></a>
+
+<div class="player-detail">
+  <div class="player-images">
+    <img ng-src="{{img}}"
+         class="player"
+         ng-repeat="img in player.images"
+         ng-class="{active: mainImageUrl==img}">
+  </div>
+  <div class="player-snippet">
+    <h1>{{player.name}}</h1>
+    <p>{{player.snippet}}</p>
+
+    <ul class="player-stats">
+      <li ng-repeat="(key, stat) in player.stats">
+        <p>{{key}}: {{stat}}</p>
+      </li>
+    </ul>
+  </div>
+
+  <ul class="player-thumbs">
+    <li ng-repeat="img in player.images">
+      <img ng-src="{{img}}" ng-click="setImage(img)">
+    </li>
+  </ul>
+</div>
+
+
+
+
+

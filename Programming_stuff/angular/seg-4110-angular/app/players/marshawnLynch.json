@@ -1,0 +1,21 @@
+{
+    "name" : "Marshawn Lynch",
+    "team": "Seattle Seahawks",
+    "position" : "RB",
+    "snippet": "Marshawn Lynch (born April 22, 1986) is an American football running back for the Seattle Seahawks of the National Football League (NFL). He was drafted by the Buffalo Bills in the first round of the 2007 NFL Draft. He played college football at California, where he became the school's second all-time career rusher.",
+    "images": [
+        "img/players/marshawn_lynch_0.jpg", 
+        "img/players/marshawn_lynch_1.jpg", 
+        "img/players/marshawn_lynch_2.jpg", 
+        "img/players/marshawn_lynch_3.jpg", 
+        "img/players/marshawn_lynch_4.jpg"
+    ], 
+    "stats": {
+    	"Games" : "6", 
+    	"Attempts": "103", 
+    	"Yards": "375", 
+        "Long": "24",
+        "Fumbles": "2",
+    	"TD": "0"
+    }
+}
