@@ -1,6 +1,7 @@
 {
     "name" : "Julian Edelman",
     "position" : "WR", 
+    "score" : 0,
     "team": "New England Patriots",
     "snippet": "Julian Edelman (born May 22, 1986) is an American football wide receiver and punt returner for the New England Patriots of the National Football League (NFL). He played college football at Kent State and the College of San Mateo as a quarterback, and was drafted by the Patriots in the seventh round of the 2009 NFL Draft.",    "images": [
         "img/players/julian_edelman_0.jpg", 

@@ -2,6 +2,7 @@
     "name" : "Matt Ryan",
     "team": "Atlanta Falcons",
     "position" : "QB",
+    "score" : 0,
     "snippet": "Matthew Thomas \"Matt\" Ryan (born May 17, 1985) is an American football quarterback for the Atlanta Falcons of the National Football League (NFL). After playing college football for Boston College, Ryan was drafted by the Falcons with the third overall pick in the first round of the 2008 NFL Draft.",
     "images": [
         "img/players/matt_ryan_0.jpg", 

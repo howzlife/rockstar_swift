@@ -10,6 +10,9 @@
         <option value="age">Age</option>
         <option value="team">Team</option>
       </select>
+      <input type="button" ng-click="startSimulation()" value="Play Fantasy!">
+      <input type="button" ng-click="killSimulation()" value="Stop Sim">
+       <input type="button" ng-click="resetSimulation()" value="Reset Fantasy Sim">
 
     </div>
     <div class="col-md-10">
@@ -20,10 +23,14 @@
             class="thumbnail player-listing">
           <a href="#/players/{{player.id}}" class="thumb"><img ng-src="{{player.imageUrl}}"></a>
           <a href="#/players/{{player.id}}">{{player.name}}</a>
-          <p>Age: {{player.age }}</p>
+          <p>Age: {{ player.age }}, Score: {{ player.score.toFixed(2) }}</p>
           <p>{{player.snippet}}</p>
         </li>
       </ul>
+
+      <div class="score"> 
+        <h3>Total Score: {{score.toFixed(2)}}</h3>
+      </div>
 
     </div>
   </div>

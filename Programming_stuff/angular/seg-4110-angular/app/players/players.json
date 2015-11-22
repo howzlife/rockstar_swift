@@ -2,6 +2,7 @@
     {
         "age": 38, 
         "id": "tomBrady", 
+        "score" : 0,
         "imageUrl": "img/players/tom_brady_0.jpg", 
         "name": "Tom Brady", 
         "team": "New England Patriots",
@@ -9,7 +10,8 @@
     }, 
     {
         "age": 29, 
-        "id": "julianEdelman", 
+        "id": "julianEdelman",
+        "score" : 0, 
         "imageUrl":"img/players/julian_edelman_0.jpg", 
         "name": "Julian Edelman", 
         "team": "New England Patriots",
@@ -18,6 +20,7 @@
     {
         "age": 26, 
         "id": "robGronkowski", 
+        "score" : 0,
         "imageUrl":"img/players/rob_gronkowski_0.jpg",
         "name": "Rob Gronkowski", 
         "team": "New England Patriots",
@@ -25,7 +28,8 @@
     }, 
     {
         "age": 31, 
-        "id": "aaronRodgers", 
+        "id": "aaronRodgers",
+        "score" : 0, 
         "imageUrl": "img/players/aaron_rodgers_0.jpg", 
         "name": "Aaron Rodgers", 
         "team": "Green Bay Packers",
@@ -34,6 +38,7 @@
     {
         "age": 39, 
         "id": "peytonManning", 
+        "score" : 0,
         "imageUrl": "img/players/peyton_manning_0.jpg", 
         "name": "Peyton Manning", 
         "team": "Denver Broncos",
@@ -42,6 +47,7 @@
     {
         "age": 26, 
         "id": "julioJones", 
+        "score" : 0,
         "imageUrl": "img/players/julio_jones_0.jpg", 
         "name": "Julio Jones", 
         "team": "Atlanta Falcons",
@@ -50,6 +56,7 @@
     {
         "age": 30, 
         "id": "mattRyan", 
+        "score" : 0,
         "imageUrl": "img/players/matt_ryan_0.jpg", 
         "name": "Matt Ryan", 
         "team": "Atlanta Falcons",
@@ -58,6 +65,7 @@
     {
         "age": 29, 
         "id": "marshawnLynch", 
+        "score" : 0,
         "imageUrl": "img/players/marshawn_lynch_0.jpg", 
         "name": "Marshawn Lynch", 
         "team": "Seattle Seahawks",
@@ -66,6 +74,7 @@
     {
         "age": 30, 
         "id": "adrianPeterson", 
+        "score" : 0,
         "imageUrl": "img/players/adrian_peterson_0.jpg", 
         "name": "Adrian Peterson", 
         "team": "Minnesota Vikings", 

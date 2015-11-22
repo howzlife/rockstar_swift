@@ -2,6 +2,7 @@
     "name" : "Julio Jones",
     "team": "Atlanta Falcons",
     "position" : "WR",
+    "score" : 0,
     "snippet": "Quintorris Lopez \"Julio\" Jones (born February 8, 1989) is an American football wide receiver for the Atlanta Falcons of the National Football League (NFL). He played college football at Alabama, and was drafted by the Falcons sixth overall in the 2011 NFL Draft.",    
     "images": [
         "img/players/julio_jones_0.jpg", 
